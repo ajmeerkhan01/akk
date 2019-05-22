@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main()
-{   // static 
-	int a=10,b=5,c;
+{   // dynamic 
+	int a,b,c;
+	printf("ENTER THE TWO NUMBERS");
+	scanf("%d%d",&a,&b);
 	c=a-b;
 	printf("THE RESULT IS %d",c);
 	
